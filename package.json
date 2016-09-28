@@ -2,7 +2,7 @@
   "name": "template",
   "version": "0.0.0",
   "description": "template for python bottle apps",
-  "main": "",
+  "main": "src/js/main.js",
   "directories": {
     "doc": "docs"
   },
@@ -21,7 +21,9 @@
     "url": "https://github.com/zamalchi/bottle-app-template/issues"
   },
   "dependencies": {
-    "underscore": "~1.8.3"
+    "underscore": "~1.8.3",
+    "jquery": "~3.1.1",
+    "bootstrap": "~3.3.7"
   },
   "devDependencies": {
     "typescript": "~2.0.3",
