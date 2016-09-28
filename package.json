@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss-compile": "node-sass -w src/scss/base.scss static/css/main.css",
-    "tsc-compile": "tsc --watch --project config/"
+    "scss": "node-sass -w src/scss/base.scss static/css/main.css",
+    "tsc": "tsc --watch --project config/"
   },
   "repository": {
     "type": "git",
