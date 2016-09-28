@@ -1,0 +1,30 @@
+{
+  "name": "template",
+  "version": "0.0.0",
+  "description": "template for python bottle apps",
+  "main": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-compile": "node-sass -w src/scss/base.scss static/css/main.css",
+    "tsc-compile": "tsc --watch --outFile static/js/main.js src/tsc/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zamalchi/bottle-app-template.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/zamalchi/bottle-app-template/issues"
+  },
+  "dependencies": {
+    "underscore": "~1.8.3"
+  },
+  "devDependencies": {
+    "typescript": "~2.0.3",
+    "node-sass": "~3.10.0"
+  }
+}

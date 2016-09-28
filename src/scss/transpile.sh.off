@@ -2,6 +2,7 @@
 
 parent_path=$( cd "$(dirname "${BASH_SOURCE}")" ; pwd -P )
 
+scss_path="../../node_modules/scss";
 scss_file="base.scss"
 css_file="main.css"
 

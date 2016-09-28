@@ -13,3 +13,5 @@ __pycache__/
 local*
 
 .log
+
+node_modules/
