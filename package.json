@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss-compile": "node-sass -w src/scss/base.scss static/css/main.css",
-    "tsc-compile": "tsc --watch --outFile static/js/main.js src/tsc/main.ts"
+    "tsc-compile": "tsc --watch --project config/"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "typescript": "~2.0.3",
-    "node-sass": "~3.10.0"
+    "node-sass": "~3.10.0",
+    "nodejs": "0.0.0"
   }
 }

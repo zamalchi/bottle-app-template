@@ -12,6 +12,6 @@ __pycache__/
 # files beginning with local
 local*
 
-.log
+*.log
 
 node_modules/
